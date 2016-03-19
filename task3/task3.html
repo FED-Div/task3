@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task3</title>
+<style type="text/css">
+
+
+.wrap{
+	border:1px solid #999;
+	padding:20px;
+	background: #eee;
+	overflow: hidden;/*消除float的影响*/
+}
+
+.left_col{
+	width:200px;
+	/*height: 1000px;*/
+	float: left;
+	background: #FC4;
+	border:1px solid #999;
+
+
+}
+
+.left_col h1{
+	float: right;
+	padding: 20px;
+}
+
+.left_col img{
+	width:80px;
+	height: 80px;
+	padding:20px;
+}
+
+.mid_col{
+	/*height: 1000px;*/
+	margin-right: 130px;
+	margin-left: 220px;
+	background: #449FFF;
+	border:1px solid #999;
+	padding:20px;
+
+}
+
+.right_col{
+	width:120px;
+	float: right;
+	/*height: 1000px;*/
+	background: #CD3;
+	border:1px solid #999;
+}
+
+.right_col img{
+	width: 80px;
+	height: 80px;
+	/*padding:20px;*/
+	margin:10px 20px;
+	border:1px solid #999;
+}
+
+.right_col img:last-child{/*最后一张图片*/
+	/*width: 80px;*/
+	/*height: 80px;*/
+	/*padding:20px;*/
+	/*margin:10px 20px 20px 20px;*/
+	margin-bottom: 20px;
+	/*border:1px solid #999;*/
+}
+
+.right_col img:first-child{
+	margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<content>
+	<!-- col1 -->
+	<section>
+		<div class="left_col">
+			<h1>Div</h1>
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+		</div>
+	</section>
+
+	<!-- col3 -->
+	<section>
+		<div class="right_col">
+			<img src="1.jpg">
+			<img src="2.jpg">
+			<img src="3.jpg">
+			<img src="4.jpg">
+		</div>
+	</section>
+
+	<!-- col2 -->
+	<section>
+		<div class="mid_col">
+			<h1>关于我们团队的介绍</h1>
+			<p>一个团队的牛叉,自我介绍从来不需要超过20个字</p>
+			<p>--end--</p>
+		</div>
+	</section>
+	
+</content>
+</div>
+</body>
+</html>
