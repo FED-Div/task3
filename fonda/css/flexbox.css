@@ -1,0 +1,32 @@
+.wrapper {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	background-color: #AAA;
+}
+[data-title="flexbox"] {
+	font-size: 23px;
+	color: #CCC;
+}
+.team {
+	-webkit-order: 1;
+	    -ms-flex-order: 1;
+	        order: 1;
+}
+.about {
+	-webkit-order: 2;
+	    -ms-flex-order: 2;
+	        order: 2;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin: 0 20px;
+}
+.members {
+	-webkit-order: 3;
+	    -ms-flex-order: 3;
+	        order: 3;
+}

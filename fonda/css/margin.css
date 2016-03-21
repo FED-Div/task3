@@ -1,0 +1,23 @@
+.wrapper {
+	/* 清浮动 */
+	overflow: hidden;
+	background-color: #EEE;
+}
+
+/* 负margin必须要有一个元素包裹其主要块，并设置width:100%;float:left; */
+/* 否则，margin-left:-100% 不知道以哪个为基准 */
+.marginWrap {
+	float: left;
+	width: 100%;
+}
+.about {
+	margin: 0 180px 0 200px;	
+}
+.team {
+	margin-left: -100%;
+	float: left;
+}
+.members {
+	margin-left: -160px;
+	float: left;
+}

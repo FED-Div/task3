@@ -1,0 +1,16 @@
+.wrapper {
+	background-color: #CCC;
+}
+[data-title="float"] {
+	font-size: 23px;
+	color: #CCC;
+}
+.team {
+	float: left;
+}
+.members {
+	float: right;
+}
+.about {
+	margin: 0 140px 0 210px;
+}

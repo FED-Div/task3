@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task3</title>
+	<link rel="stylesheet" href="default.css">
+	<!-- 利用绝对定位布局 -->
+	<link rel="stylesheet" href="./css/position.css" title="position">
+
+	<!-- 利用float布局 -->
+	<link rel="stylesheet" href="./css/float.css" title="float" disabled>
+
+	<!-- 利用flexbox布局, 移动端浏览器实现较好，但微信X5浏览器只支持部分flexbox属性 -->
+	<link rel="stylesheet" href="./css/flexbox.css" title="flexbox" disabled>
+</head>
+<body>
+
+	<nav>
+		<a href="margin.html" data-title="margin">Margin负边距布局(HTML结构需要改动)</a>
+		<a href="javascript:;" data-title="position">Position布局</a>
+		<a href="javascript:;" data-title="float">Float布局</a>
+		<a href="javascript:;" data-title="flexbox">Flexbox布局</a>
+	</nav>
+
+	<div class="wrapper">
+		<div class="members">
+			<div class="imgWrap">
+				<img src="./imgs/izayl.jpg" alt="izayl">
+			</div>
+
+			<div class="imgWrap">
+				<img src="./imgs/wagnlinzh.jpg" alt="wagnlinzh">
+			</div>
+
+			<div class="imgWrap">
+				<img src="./imgs/warjiang.jpg" alt="warjiang">
+			</div>
+
+			<div class="imgWrap">
+				<img src="./imgs/fondadam.jpg" alt="fondadam">
+			</div>
+		</div>
+
+		<div class="team">
+			<img src="./imgs/logo.png" alt="团队Logo">
+			<span>DIV战队</span>
+		</div>
+
+		<div class="about">
+			<h3>团队介绍</h3>
+
+			<article>
+				<span>关于@izayl</span>
+				<p>南昌航空大学</p>
+				<p>在校生</p>
+				<p>熟悉html css javascript, 有前端实习经验，正在学习angular和ionic</p>
+
+				<span>关于@wagnlinzh</span>
+				<p>武汉工程大学</p>
+				<p>在校生</p>
+
+				<span>关于@warjiang</span>
+				<p>东南大学</p>
+				<p>在校生</p>
+
+				<span>关于@fondadam</span>
+				<p>华南理工大学</p>
+				<p>在校生</p>
+			</article>
+		</div>
+	</div>
+
+	<script src="about.js"></script>
+</body>
+</html>

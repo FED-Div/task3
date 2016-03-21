@@ -1,0 +1,23 @@
+.wrapper {
+	position: relative;
+	background-color: #9E9;
+}
+[data-title="position"] {
+	font-size: 23px;
+	color: #CCC;
+}
+.team,
+.members {
+	position: absolute;
+	top: 20px;
+}
+
+.team {
+	left: 20px;
+}
+.members {
+	right: 20px;
+}
+.about {
+	margin: 0 140px 0 220px;
+}
