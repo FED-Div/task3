@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圣杯布局</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 20px;
+		}
+		.container,
+		.left,
+		.right,
+		.center{
+			padding: 20px;
+			background-color: #fff;
+			border: 1px #999 solid;
+			box-sizing: border-box;
+		}
+		.container{
+			background-color: #eee;
+			overflow: hidden;
+			min-width: 700px;
+			padding: 20px 160px 20px 240px;
+		}
+		.left,
+		.center,
+		.right{
+			float: left;
+		}
+		.center{
+			width: 100%;
+		}
+		.left{
+			width: 200px;
+			margin-left: -100%;
+			position: relative;
+			left: -220px;
+		}
+		.right{
+			width: 120px;
+			margin-left: -120px;
+			position: relative;
+			right: -140px;
+		}
+		.left img,
+		.right img{
+			width: 80px;
+		}
+			.right img{
+				margin-bottom: 20px;
+			}
+			.right img:last-child{margin-bottom: 0}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="center">
+            <h3>团队成员</h3>
+
+			<h4>王琳</h4>
+				<p>武汉工程大学</p>
+
+			<h4>谢家兴</h4>
+				<p>南昌航空大学</p>
+
+			<h4>丁文江</h4>
+				<p>东南大学</p>
+
+			<h4>戴锋</h4>
+				<p>华南理工大学</p>
+		</div>
+		<div class="left">
+			<img src="logo.png" alt="">
+			<span>div</span>
+		</div>
+		<div class="right">
+			<img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="4.png" alt="">
+		</div>
+	</div>
+</body>
+</html>
